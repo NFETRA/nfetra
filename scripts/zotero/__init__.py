@@ -18,7 +18,7 @@ LOGGER = logging.getLogger("conf")
 
 def generate_zotero_library(app: Sphinx):
     zot = zotero.Zotero(config["NFETRA_GROUP"], "group", config["ZOTERO_KEY"])
-    items = zot.top(limit=5, format="bibtex", sort="date")
+    items = zot.collection_items(config["ZOTERO_PUBLICATIONS_KEY"], limit=5, format="bibtex", sort="date")
 
     with open("latest-publications.bib", "w") as f:
         bibtexparser.dump(items, f)
