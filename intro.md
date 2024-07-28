@@ -18,7 +18,7 @@ short_title: NFETRA
 :name: overview
 :class: no-scaled-link
 
-Spectacular views of large-scale detachments.
+Unique views of large-scale detachments.
 
 %
 ```
@@ -27,7 +27,7 @@ Spectacular views of large-scale detachments.
 :name: uav_surveys
 :class: no-scaled-link
 
-Spectacular views of large-scale detachments.
+Expert use of UAVs and digital technologies.
 
 %
 ```

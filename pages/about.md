@@ -23,6 +23,10 @@ align: center
 Adapted from {cite:t}`whitney2013continental` and {cite:t}`betlem2023high`.
 ```
 
+```{admonition} Explore more!
+:class: seealso
+<iframe title="Piz Laviner - Err detachment system" frameborder="0" style="width: 100%; min-height: 300px;" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/3a19ff2890394f2ba81283c89e1b9d4b/embed?ui_infos=0&ui_watermark_link=0&ui_watermark=0&dnt=1"> </iframe>
+```
 
 ## References
 ```{bibliography}

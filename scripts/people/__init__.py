@@ -26,6 +26,14 @@ def build_teamgallery(app: Sphinx):
         if not item.get("keywords"):
             item["keywords"] = ""
 
+        
+        linkedin = f'[<i class="fa-brands fa-linkedin fa-lg"></i>]({item["linkedin"]})' if "linkedin" in item.keys() else ""
+        github = f'[<i class="fa-brands fa-github fa-lg"></i>]({item["github"]})' if "github" in item.keys() else ""
+        scholar = f'[<i class="fa-brands fa-google-scholar fa-lg"></i>]({item["scholar"]})' if "scholar" in item.keys() else ""
+        researchgate = f'[<i class="fa-brands fa-researchgate fa-lg"></i>]({item["researchgate"]})' if "researchgate" in item.keys() else ""
+
+        social = " ".join([linkedin, github, scholar, researchgate])
+
     # change padding when more than 2 people
         grid_items.append(
 f"""\
@@ -34,11 +42,12 @@ f"""\
 ```{{image}} {item["image"]}
 :width: 150px
 :align: right
+:class: no-scaled-link
+:numfig: False
 ```
-**{item["name"]} {item["surname"]}**{", " + item["title"] if item["title"] else ""}{" - " + "*" + item["projectPI"] + "*" if "projectPI" in item.keys() else ""}<br>{item["companytitle"]}
 
+**{item["name"]} {item["surname"]}**{", " + item["title"] if item["title"] else ""}{" - " + "*" + item["projectPI"] + "*" if "projectPI" in item.keys() else ""} {social}<br>{item["companytitle"]}
 
-{{bdg-link-secondary}}`linkedin <{item["linkedin"]}>`
 
 
 {item["bio"]}

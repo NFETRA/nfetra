@@ -41,6 +41,8 @@ extensions = [
 bibtex_bibfiles = ['references.bib', 'latest-publications.bib']
 bibtex_default_style = "plain"
 
+carousel_bootstrap_prefix = ""
+
 external_toc_path = "_toc.yml"  # optional, default: _toc.yml
 external_toc_exclude_missing = False  # optional, default: False
 
@@ -154,7 +156,7 @@ html_theme_options = {
     "article_header_start": [],
     "navbar_align": "content",  # [left, content, right] For testing that the navbar items align properly
     "navbar_center": ["navbar-nav"],
-    "announcement": "<p>These pages are under maintenance - check back regularly for the latest improvements!</p>",
+   # "announcement": "<p>These pages are under maintenance - check back regularly for the latest improvements!</p>",
     #"show_nav_level": 1,
     "navbar_start": ["navbar-logo"],
     #"navbar_end": ["navbar-icon-links"],
@@ -222,6 +224,7 @@ html_static_path = ["_static"]
 html_css_files = ["css/custom.css"]
 todo_include_todos = True
 
+numfig = True
 
 import sys
 from sphinx.application import Sphinx

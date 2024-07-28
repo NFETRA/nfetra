@@ -5,30 +5,15 @@
 :class-container: full-width
 `````{grid-item-card}
 :text-align: left
-```{image} https://media.licdn.com/dms/image/C4D03AQFcirvtqh0tkA/profile-displayphoto-shrink_800_800/0/1518888592866?e=2147483647&v=beta&t=6LiG6e0axA1RzMalJcw5EM_6yYrceHstgcOS3GhPvcM
+```{image} ./assets/team/Julie.jpg
 :width: 150px
 :align: right
+:class: no-scaled-link
+:numfig: False
 ```
-**Peter Betlem**, PhD<br>Geoscientist, Norges Geotekniske Institutt
 
+**Julie Tugend**, PhD    <br>TODO
 
-{bdg-link-secondary}`linkedin <https://www.linkedin.com/in/peterbetlem>`
-
-
-a
-
-`````
-
-`````{grid-item-card}
-:text-align: left
-```{image} TODO
-:width: 150px
-:align: right
-```
-**Julie Tugend**, PhD<br>TODO
-
-
-{bdg-link-secondary}`linkedin <TODO>`
 
 
 Dr. Julie Tugend is an experienced research fellow. She graduated 
@@ -60,11 +45,12 @@ and included field excursions and seismic interpretation workshops.
 ```{image} https://media.licdn.com/dms/image/C4E03AQFhyY2nG58znw/profile-displayphoto-shrink_800_800/0/1515955850706?e=1727308800&v=beta&t=kd0tWHvm0DiRtOVcXBF3JZCuRkDSEL7fhDYzNo8Tl1k
 :width: 150px
 :align: right
+:class: no-scaled-link
+:numfig: False
 ```
-**Geoffroy Mohn**, PhD - *Principal Investigator*<br>Assistant professor, University of Cergy-Pontoise
 
+**Geoffroy Mohn**, PhD - *Principal Investigator* [<i class="fa-brands fa-linkedin fa-lg"></i>](https://www.linkedin.com/in/geoffroy-mohn-91410224/)   <br>Assistant professor, University of Cergy-Pontoise
 
-{bdg-link-secondary}`linkedin <https://www.linkedin.com/in/geoffroy-mohn-91410224/>`
 
 
 Dr. Geoffroy Mohn is associate professor in Tectonics at CY Cergy-Paris University (France). He graduated from the University of Strasbourg, with a PhD in Geology in 2010, conducted under the supervision of Prof. Gianreto Manatschal. His dissertation focussed on the tectonic and sedimentary evolution of the remnants of the fossil Alpine Tethys margin preserved in the European Alps. After his PhD, he obtained a postdoctoral scholarship between the University of Strasbourg (France), University of Lausanne (Switzerland) and EXXONMOBIL-Upstream Research Company-Houston to study the structural, rheological and temporal evolution of hyper-extended deep-water rifted margins. His research focusses on the mechanisms of continental lithospheric thinning and breakup and the associated sedimentary record using offshore and onshore case studies. He also investigates the interaction between hyperextension and evaporite/salt deposition and the effect of mobile salt on the stratigraphic architecture of rift basins.
@@ -79,11 +65,29 @@ Dr Geoffroy Mohn is currently actively involved in IODP, being the referent for 
 ```{image} https://media.licdn.com/dms/image/C4D03AQFr7f6JrcJ7Ow/profile-displayphoto-shrink_800_800/0/1631503508344?e=1727308800&v=beta&t=R8Zq5u2LEHWeBOZFvVD9HfgwOEYWB69CDZyIofpSOwA
 :width: 150px
 :align: right
+:class: no-scaled-link
+:numfig: False
 ```
-**Leïla Morzelle**<br>PhD Candidate, University of Cergy-Pontoise
+
+**Leïla Morzelle** [<i class="fa-brands fa-linkedin fa-lg"></i>](https://www.linkedin.com/in/le%C3%AFla-morzelle-276217220/)   <br>PhD Candidate, University of Cergy-Pontoise
 
 
-{bdg-link-secondary}`linkedin <https://www.linkedin.com/in/le%C3%AFla-morzelle-276217220/>`
+
+a
+
+`````
+
+`````{grid-item-card}
+:text-align: left
+```{image} https://media.licdn.com/dms/image/C4D03AQFcirvtqh0tkA/profile-displayphoto-shrink_800_800/0/1518888592866?e=2147483647&v=beta&t=6LiG6e0axA1RzMalJcw5EM_6yYrceHstgcOS3GhPvcM
+:width: 150px
+:align: right
+:class: no-scaled-link
+:numfig: False
+```
+
+**Peter Betlem**, PhD [<i class="fa-brands fa-linkedin fa-lg"></i>](https://www.linkedin.com/in/peterbetlem) [<i class="fa-brands fa-github fa-lg"></i>](https://github.com/peterbetlem) [<i class="fa-brands fa-google-scholar fa-lg"></i>](https://scholar.google.com/citations?user=vdV4YxIAAAAJ&hl) [<i class="fa-brands fa-researchgate fa-lg"></i>](https://www.researchgate.net/profile/Peter-Betlem)<br>Geoscientist, Norges Geotekniske Institutt
+
 
 
 a

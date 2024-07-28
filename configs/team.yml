@@ -2,6 +2,9 @@
   surname: Betlem
   title: PhD
   linkedin: https://www.linkedin.com/in/peterbetlem
+  scholar: https://scholar.google.com/citations?user=vdV4YxIAAAAJ&hl
+  github: https://github.com/peterbetlem
+  researchgate: https://www.researchgate.net/profile/Peter-Betlem
   image: https://media.licdn.com/dms/image/C4D03AQFcirvtqh0tkA/profile-displayphoto-shrink_800_800/0/1518888592866?e=2147483647&v=beta&t=6LiG6e0axA1RzMalJcw5EM_6yYrceHstgcOS3GhPvcM
   companytitle: Geoscientist, Norges Geotekniske Institutt
   bio: |
@@ -17,8 +20,7 @@
 - name: Julie
   surname: Tugend
   title: PhD
-  linkedin: TODO
-  image: TODO
+  image: ./assets/team/Julie.jpg
   companytitle: TODO
   bio: |
     Dr. Julie Tugend is an experienced research fellow. She graduated 
