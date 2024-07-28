@@ -5,6 +5,23 @@
 :class-container: full-width
 `````{grid-item-card}
 :text-align: left
+```{image} https://media.licdn.com/dms/image/C4D03AQFr7f6JrcJ7Ow/profile-displayphoto-shrink_800_800/0/1631503508344?e=1727308800&v=beta&t=R8Zq5u2LEHWeBOZFvVD9HfgwOEYWB69CDZyIofpSOwA
+:width: 150px
+:align: right
+:class: no-scaled-link
+:numfig: False
+```
+
+**Leïla Morzelle** [<i class="fa-brands fa-linkedin fa-lg"></i>](https://www.linkedin.com/in/le%C3%AFla-morzelle-276217220/)   <br>PhD Candidate, University of Cergy-Pontoise
+
+
+
+Leïla Morzelle has been a natural sciences teacher in France since 2018. After teaching in high school and at university, she obtained a prize for mediation and dissemination of scientific culture for her investment in the U-maker project about geology of Vexin. In 2024, she began a PhD in geosciences at CY Cergy Paris University and is interested in 3D geometry and the deformation of low-angle normal faults. She has a Drone Pilot Certificate which she intends to use in a new way of doing geological field work.
+
+`````
+
+`````{grid-item-card}
+:text-align: left
 ```{image} ./assets/team/Julie.jpg
 :width: 150px
 :align: right
@@ -12,7 +29,7 @@
 :numfig: False
 ```
 
-**Julie Tugend**, PhD    <br>TODO
+**Julie Tugend**, PhD    <br>None
 
 
 
@@ -62,23 +79,6 @@ Dr Geoffroy Mohn is currently actively involved in IODP, being the referent for 
 
 `````{grid-item-card}
 :text-align: left
-```{image} https://media.licdn.com/dms/image/C4D03AQFr7f6JrcJ7Ow/profile-displayphoto-shrink_800_800/0/1631503508344?e=1727308800&v=beta&t=R8Zq5u2LEHWeBOZFvVD9HfgwOEYWB69CDZyIofpSOwA
-:width: 150px
-:align: right
-:class: no-scaled-link
-:numfig: False
-```
-
-**Leïla Morzelle** [<i class="fa-brands fa-linkedin fa-lg"></i>](https://www.linkedin.com/in/le%C3%AFla-morzelle-276217220/)   <br>PhD Candidate, University of Cergy-Pontoise
-
-
-
-Leïla Morzelle has been a natural sciences teacher in France since 2018. After teaching in high school and at university, she obtained a prize for mediation and dissemination of scientific culture for her investment in the U-maker project about geology of Vexin. In 2024, she began a PhD in geosciences at CY Cergy Paris University and is interested in 3D geometry and the deformation of low-angle normal faults. She has a Drone Pilot Certificate which she intends to use in a new way of doing geological field work.
-
-`````
-
-`````{grid-item-card}
-:text-align: left
 ```{image} https://media.licdn.com/dms/image/C4D03AQFcirvtqh0tkA/profile-displayphoto-shrink_800_800/0/1518888592866?e=2147483647&v=beta&t=6LiG6e0axA1RzMalJcw5EM_6yYrceHstgcOS3GhPvcM
 :width: 150px
 :align: right
@@ -90,8 +90,7 @@ Leïla Morzelle has been a natural sciences teacher in France since 2018. After 
 
 
 
-a
-
+None
 `````
 
 ``````

@@ -7,11 +7,10 @@
   researchgate: https://www.researchgate.net/profile/Peter-Betlem
   image: https://media.licdn.com/dms/image/C4D03AQFcirvtqh0tkA/profile-displayphoto-shrink_800_800/0/1518888592866?e=2147483647&v=beta&t=6LiG6e0axA1RzMalJcw5EM_6yYrceHstgcOS3GhPvcM
   companytitle: Geoscientist, Norges Geotekniske Institutt
-  bio: |
-     a
+  bio:  
 - name: Leïla
   surname: Morzelle
-  title: 
+  title:  
   linkedin: https://www.linkedin.com/in/le%C3%AFla-morzelle-276217220/
   image: https://media.licdn.com/dms/image/C4D03AQFr7f6JrcJ7Ow/profile-displayphoto-shrink_800_800/0/1631503508344?e=1727308800&v=beta&t=R8Zq5u2LEHWeBOZFvVD9HfgwOEYWB69CDZyIofpSOwA
   companytitle: PhD Candidate, University of Cergy-Pontoise
@@ -21,7 +20,7 @@
   surname: Tugend
   title: PhD
   image: ./assets/team/Julie.jpg
-  companytitle: TODO
+  companytitle:  
   bio: |
     Dr. Julie Tugend is an experienced research fellow. She graduated 
     from the University of Strasbourg with a PhD in Geology and 
