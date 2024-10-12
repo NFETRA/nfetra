@@ -5,23 +5,6 @@
 :class-container: full-width
 `````{grid-item-card}
 :text-align: left
-```{image} https://media.licdn.com/dms/image/C4D03AQFr7f6JrcJ7Ow/profile-displayphoto-shrink_800_800/0/1631503508344?e=1727308800&v=beta&t=R8Zq5u2LEHWeBOZFvVD9HfgwOEYWB69CDZyIofpSOwA
-:width: 150px
-:align: right
-:class: no-scaled-link
-:numfig: False
-```
-
-**Leïla Morzelle** [<i class="fa-brands fa-linkedin fa-lg"></i>](https://www.linkedin.com/in/le%C3%AFla-morzelle-276217220/)   <br>PhD Candidate, University of Cergy-Pontoise
-
-
-
-Leïla Morzelle has been a natural sciences teacher in France since 2018. After teaching in high school and at university, she obtained a prize for mediation and dissemination of scientific culture for her investment in the U-maker project about geology of Vexin. In 2024, she began a PhD in geosciences at CY Cergy Paris University and is interested in 3D geometry and the deformation of low-angle normal faults. She has a Drone Pilot Certificate which she intends to use in a new way of doing geological field work.
-
-`````
-
-`````{grid-item-card}
-:text-align: left
 ```{image} ./assets/team/Julie.jpg
 :width: 150px
 :align: right
@@ -59,22 +42,19 @@ and included field excursions and seismic interpretation workshops.
 
 `````{grid-item-card}
 :text-align: left
-```{image} https://media.licdn.com/dms/image/C4E03AQFhyY2nG58znw/profile-displayphoto-shrink_800_800/0/1515955850706?e=1727308800&v=beta&t=kd0tWHvm0DiRtOVcXBF3JZCuRkDSEL7fhDYzNo8Tl1k
+```{image} https://media.licdn.com/dms/image/C4D03AQFr7f6JrcJ7Ow/profile-displayphoto-shrink_800_800/0/1631503508344?e=1727308800&v=beta&t=R8Zq5u2LEHWeBOZFvVD9HfgwOEYWB69CDZyIofpSOwA
 :width: 150px
 :align: right
 :class: no-scaled-link
 :numfig: False
 ```
 
-**Geoffroy Mohn**, PhD - *Principal Investigator* [<i class="fa-brands fa-linkedin fa-lg"></i>](https://www.linkedin.com/in/geoffroy-mohn-91410224/)   <br>Assistant professor, University of Cergy-Pontoise
+**Leïla Morzelle** [<i class="fa-brands fa-linkedin fa-lg"></i>](https://www.linkedin.com/in/le%C3%AFla-morzelle-276217220/)   <br>PhD Candidate, University of Cergy-Pontoise
 
 
 
-Dr. Geoffroy Mohn is associate professor in Tectonics at CY Cergy-Paris University (France). He graduated from the University of Strasbourg, with a PhD in Geology in 2010, conducted under the supervision of Prof. Gianreto Manatschal. His dissertation focussed on the tectonic and sedimentary evolution of the remnants of the fossil Alpine Tethys margin preserved in the European Alps. After his PhD, he obtained a postdoctoral scholarship between the University of Strasbourg (France), University of Lausanne (Switzerland) and EXXONMOBIL-Upstream Research Company-Houston to study the structural, rheological and temporal evolution of hyper-extended deep-water rifted margins. His research focusses on the mechanisms of continental lithospheric thinning and breakup and the associated sedimentary record using offshore and onshore case studies. He also investigates the interaction between hyperextension and evaporite/salt deposition and the effect of mobile salt on the stratigraphic architecture of rift basins.
+Leïla Morzelle has been a natural sciences teacher in France since 2018. After teaching in high school and at university, she obtained a prize for mediation and dissemination of scientific culture for her investment in the U-maker project about geology of Vexin. In 2024, she began a PhD in geosciences at CY Cergy Paris University and is interested in 3D geometry and the deformation of low-angle normal faults. She has a Drone Pilot Certificate which she intends to use in a new way of doing geological field work.
 
-Since his recruitment in 2012 at CY Cergy-Paris University, he supervised five PhDs students, led and managed four post-doc projects funded by industry partners and was involved in two petroleum consortiums (MM4, M5). He recently led a project on the evolution of the remnants of the North African Mesozoic rifted margin exposed in the Rif belt (onshore Morocco).
-
-Dr Geoffroy Mohn is currently actively involved in IODP, being the referent for his laboratory. He participated and sailed on the IODP expeditions 368, which occurred in spring 2017 entitled *Testing hypotheses for lithosphere thinning during continental breakup: drilling at the South China Sea rifted margin*, subsequently to which he obtained several post-cruise IODP projects.
 `````
 
 `````{grid-item-card}
@@ -91,6 +71,26 @@ Dr Geoffroy Mohn is currently actively involved in IODP, being the referent for 
 
 
 None
+`````
+
+`````{grid-item-card}
+:text-align: left
+```{image} https://media.licdn.com/dms/image/C4E03AQFhyY2nG58znw/profile-displayphoto-shrink_800_800/0/1515955850706?e=1727308800&v=beta&t=kd0tWHvm0DiRtOVcXBF3JZCuRkDSEL7fhDYzNo8Tl1k
+:width: 150px
+:align: right
+:class: no-scaled-link
+:numfig: False
+```
+
+**Geoffroy Mohn**, PhD - *Principal Investigator* [<i class="fa-brands fa-linkedin fa-lg"></i>](https://www.linkedin.com/in/geoffroy-mohn-91410224/)   <br>Assistant professor, University of Cergy-Pontoise
+
+
+
+Dr. Geoffroy Mohn is associate professor in Tectonics at CY Cergy-Paris University (France). He graduated from the University of Strasbourg, with a PhD in Geology in 2010, conducted under the supervision of Prof. Gianreto Manatschal. His dissertation focussed on the tectonic and sedimentary evolution of the remnants of the fossil Alpine Tethys margin preserved in the European Alps. After his PhD, he obtained a postdoctoral scholarship between the University of Strasbourg (France), University of Lausanne (Switzerland) and EXXONMOBIL-Upstream Research Company-Houston to study the structural, rheological and temporal evolution of hyper-extended deep-water rifted margins. His research focusses on the mechanisms of continental lithospheric thinning and breakup and the associated sedimentary record using offshore and onshore case studies. He also investigates the interaction between hyperextension and evaporite/salt deposition and the effect of mobile salt on the stratigraphic architecture of rift basins.
+
+Since his recruitment in 2012 at CY Cergy-Paris University, he supervised five PhDs students, led and managed four post-doc projects funded by industry partners and was involved in two petroleum consortiums (MM4, M5). He recently led a project on the evolution of the remnants of the North African Mesozoic rifted margin exposed in the Rif belt (onshore Morocco).
+
+Dr Geoffroy Mohn is currently actively involved in IODP, being the referent for his laboratory. He participated and sailed on the IODP expeditions 368, which occurred in spring 2017 entitled *Testing hypotheses for lithosphere thinning during continental breakup: drilling at the South China Sea rifted margin*, subsequently to which he obtained several post-cruise IODP projects.
 `````
 
 ``````

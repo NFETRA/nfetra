@@ -73,6 +73,8 @@ Information about the project team.
 :::
 ::::
 
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/qQpoPkuI4is?si=YX1lVJyVk2AfUlBm" frameborder="0" allow="autoplay" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ## Latest publications
 
 ```{bibliography} latest-publications.bib
