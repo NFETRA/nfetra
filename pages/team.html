@@ -8,7 +8,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Team &#8212; NFETRA Project</title>
+    <title>Team &#8212; NFETRA  documentation</title>
   
   
   
@@ -28,45 +28,48 @@
 <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.2/webfonts/fa-brands-400.woff2" />
 <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.2/webfonts/fa-regular-400.woff2" />
 
-    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=fa44fd50" />
-    <link rel="stylesheet" type="text/css" href="../_static/styles/sphinx-book-theme.css?v=a3416100" />
-    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css?v=13237357" />
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=a746c00c" />
     <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
-    <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css?v=4fa983c6" />
+    <link rel="stylesheet" type="text/css" href="../_static/jupyter-sphinx.css?v=572af1d6" />
+    <link rel="stylesheet" type="text/css" href="../_static/thebelab.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/plot_directive.css?v=7f9a90b1" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css?v=be8a1c11" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css?v=13237357" />
     <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=87e54e7c" />
     <link rel="stylesheet" type="text/css" href="../_static/css/custom.css?v=a8f9b151" />
-    <link rel="stylesheet" type="text/css" href="../_static/map/map_plugin.css?v=e8e6ec35" />
   
   <!-- Pre-loaded scripts that we'll load fully later -->
   <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b" />
 <link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b" />
   <script src="../_static/vendor/fontawesome/6.5.2/js/all.min.js?digest=dfe6caa3a7d634c4db9b"></script>
 
-    <script src="../_static/documentation_options.js?v=9eb32ce0"></script>
+    <script src="../_static/documentation_options.js?v=5929fcd5"></script>
     <script src="../_static/doctools.js?v=9a2dae69"></script>
     <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
     <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
     <script src="../_static/copybutton.js?v=f281be69"></script>
-    <script src="../_static/scripts/sphinx-book-theme.js?v=887ef09a"></script>
+    <script src="../_static/thebelab-helper.js"></script>
     <script>let toggleHintShow = 'Click to show';</script>
     <script>let toggleHintHide = 'Click to hide';</script>
     <script>let toggleOpenOnPrint = 'true';</script>
     <script src="../_static/togglebutton.js?v=4a39c7ea"></script>
-    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
     <script src="../_static/design-tabs.js?v=f930bc37"></script>
-    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
-    <script async="async" src="../_static/sphinx-thebe.js?v=c100c467"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@jupyter-widgets/html-manager@^1.0.1/dist/embed-amd.js"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
-    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
     <script>DOCUMENTATION_OPTIONS.pagename = 'pages/team';</script>
-    <script src="../_static/map/map_plugin.js?v=44c0fe4f"></script>
+    <link rel="canonical" href="http://127.0.0.1:8000/pages/team.html" />
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
     <link rel="next" title="Sponsors" href="sponsors.html" />
     <link rel="prev" title="About" href="about.html" />
+
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
+
+
+
   </head>
   
   
@@ -103,8 +106,8 @@
          class="form-control"
          name="q"
          id="search-input"
-         placeholder="Search this book..."
-         aria-label="Search this book..."
+         placeholder="Search the docs ..."
+         aria-label="Search the docs ..."
          autocomplete="off"
          autocorrect="off"
          autocapitalize="off"
@@ -119,27 +122,15 @@
 
   
     <header class="bd-header navbar navbar-expand-lg bd-navbar d-print-none">
-    </header>
+<div class="bd-header__inner bd-page-width">
+  <button class="pst-navbar-icon sidebar-toggle primary-toggle" aria-label="Site navigation">
+    <span class="fa-solid fa-bars"></span>
+  </button>
   
-
-  <div class="bd-container">
-    <div class="bd-container__inner bd-page-width">
-      
-      
-      
-      <div class="bd-sidebar-primary bd-sidebar">
-        
-
   
-  <div class="sidebar-header-items sidebar-primary__section">
+  <div class="col-lg-3 navbar-header-items__start">
     
-    
-    
-    
-  </div>
-  
-    <div class="sidebar-primary-items__start sidebar-primary__section">
-        <div class="sidebar-primary-item">
+      <div class="navbar-item">
 
   
     
@@ -155,7 +146,54 @@
     <p class="title logo__title">NFETRA Project</p>
   
 </a></div>
-        <div class="sidebar-primary-item">
+    
+  </div>
+  
+  <div class="col-lg-9 navbar-header-items">
+    
+    <div class="me-auto navbar-header-items__center">
+      
+        <div class="navbar-item">
+<nav>
+  <ul class="bd-navbar-elements navbar-nav">
+    
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="map.html">
+    Map
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="about.html">
+    About
+  </a>
+</li>
+
+
+<li class="nav-item current active">
+  <a class="nav-link nav-internal" href="#">
+    Team
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="sponsors.html">
+    Sponsors
+  </a>
+</li>
+
+  </ul>
+</nav></div>
+      
+    </div>
+    
+    
+    <div class="navbar-header-items__end">
+      
+        <div class="navbar-item navbar-persistent--container">
+          
 
  <script>
  document.write(`
@@ -165,27 +203,153 @@
     <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
    </button>
  `);
- </script></div>
-        <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
-    <div class="bd-toc-item navbar-nav active">
-        
-        <ul class="nav bd-sidenav bd-sidenav__home-link">
-            <li class="toctree-l1">
-                <a class="reference internal" href="../intro.html">
-                    Welcome to the NFETRA project
-                </a>
-            </li>
-        </ul>
-        <ul class="current nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="map.html">Map</a></li>
-<li class="toctree-l1"><a class="reference internal" href="about.html">About</a></li>
-<li class="toctree-l1 current active"><a class="current reference internal" href="#">Team</a></li>
-<li class="toctree-l1"><a class="reference internal" href="sponsors.html">Sponsors</a></li>
-</ul>
+ </script>
+        </div>
+      
+      
+        <div class="navbar-item">
 
+<script>
+document.write(`
+  <button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="theme-switch fa-solid fa-sun fa-lg" data-mode="light"></i>
+    <i class="theme-switch fa-solid fa-moon fa-lg" data-mode="dark"></i>
+    <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"></i>
+  </button>
+`);
+</script></div>
+      
+        <div class="navbar-item"><ul class="navbar-icon-links"
+    aria-label="Icon Links">
+        <li class="nav-item">
+            
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://github.com/nfetra" title="Github" class="nav-link pst-navbar-icon" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><img src="../_static/logos/github.svg" class="icon-link-image" alt="Github"/></a>
+        </li>
+</ul></div>
+      
     </div>
+    
+  </div>
+  
+  
+    <div class="navbar-persistent--mobile">
+
+ <script>
+ document.write(`
+   <button class="btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <span class="search-button__default-text">Search</span>
+    <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+   </button>
+ `);
+ </script>
+    </div>
+  
+
+  
+</div>
+
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+      <div class="bd-sidebar-primary bd-sidebar hide-on-wide">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+      <div class="sidebar-header-items__center">
+        
+          
+          
+            <div class="navbar-item">
+<nav>
+  <ul class="bd-navbar-elements navbar-nav">
+    
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="map.html">
+    Map
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="about.html">
+    About
+  </a>
+</li>
+
+
+<li class="nav-item current active">
+  <a class="nav-link nav-internal" href="#">
+    Team
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="sponsors.html">
+    Sponsors
+  </a>
+</li>
+
+  </ul>
 </nav></div>
-    </div>
+          
+        
+      </div>
+    
+    
+    
+      <div class="sidebar-header-items__end">
+        
+          <div class="navbar-item">
+
+<script>
+document.write(`
+  <button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="theme-switch fa-solid fa-sun fa-lg" data-mode="light"></i>
+    <i class="theme-switch fa-solid fa-moon fa-lg" data-mode="dark"></i>
+    <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"></i>
+  </button>
+`);
+</script></div>
+        
+          <div class="navbar-item"><ul class="navbar-icon-links"
+    aria-label="Icon Links">
+        <li class="nav-item">
+            
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://github.com/nfetra" title="Github" class="nav-link pst-navbar-icon" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><img src="../_static/logos/github.svg" class="icon-link-image" alt="Github"/></a>
+        </li>
+</ul></div>
+        
+      </div>
+    
+  </div>
   
   
   <div class="sidebar-primary-items__end sidebar-primary__section">
@@ -199,158 +363,29 @@
       <main id="main-content" class="bd-main" role="main">
         
         
-
-<div class="sbt-scroll-pixel-helper"></div>
-
           <div class="bd-content">
             <div class="bd-article-container">
               
-              <div class="bd-header-article d-print-none">
-<div class="header-article-items header-article__inner">
-  
-    <div class="header-article-items__start">
-      
-        <div class="header-article-item"><button class="sidebar-toggle primary-toggle btn btn-sm" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
-  <span class="fa-solid fa-bars"></span>
-</button></div>
-      
-    </div>
-  
-  
-    <div class="header-article-items__end">
-      
-        <div class="header-article-item">
-
-<div class="article-header-buttons">
-
-
-
-
-
-<div class="dropdown dropdown-download-buttons">
-  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
-    <i class="fas fa-download"></i>
-  </button>
-  <ul class="dropdown-menu">
-      
-      
-      
-      <li><a href="../_sources/pages/team.md" target="_blank"
-   class="btn btn-sm btn-download-source-button dropdown-item"
-   title="Download source file"
-   data-bs-placement="left" data-bs-toggle="tooltip"
->
-  
-
-<span class="btn__icon-container">
-  <i class="fas fa-file"></i>
-  </span>
-<span class="btn__text-container">.md</span>
-</a>
-</li>
-      
-      
-      
-      
-      <li>
-<button onclick="window.print()"
-  class="btn btn-sm btn-download-pdf-button dropdown-item"
-  title="Print to PDF"
-  data-bs-placement="left" data-bs-toggle="tooltip"
->
-  
-
-<span class="btn__icon-container">
-  <i class="fas fa-file-pdf"></i>
-  </span>
-<span class="btn__text-container">.pdf</span>
-</button>
-</li>
-      
-  </ul>
-</div>
-
-
-
-
-<button onclick="toggleFullScreen()"
-  class="btn btn-sm btn-fullscreen-button"
-  title="Fullscreen mode"
-  data-bs-placement="bottom" data-bs-toggle="tooltip"
->
-  
-
-<span class="btn__icon-container">
-  <i class="fas fa-expand"></i>
-  </span>
-
-</button>
-
-
-
-<script>
-document.write(`
-  <button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
-    <i class="theme-switch fa-solid fa-sun fa-lg" data-mode="light"></i>
-    <i class="theme-switch fa-solid fa-moon fa-lg" data-mode="dark"></i>
-    <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"></i>
-  </button>
-`);
-</script>
-
-
-<script>
-document.write(`
-  <button class="btn btn-sm pst-navbar-icon search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
-    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
-  </button>
-`);
-</script>
-<button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
-    <span class="fa-solid fa-list"></span>
-</button>
-</div></div>
-      
-    </div>
-  
-</div>
-</div>
+              <div class="bd-header-article d-print-none"></div>
               
               
-
-<div id="jb-print-docs-body" class="onlyprint">
-    <h1>Team</h1>
-    <!-- Table of contents -->
-    <div id="print-main-content">
-        <div id="jb-print-toc">
-            
-            <div>
-                <h2> Contents </h2>
-            </div>
-            <nav aria-label="Page">
-                <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#references">References</a></li>
-</ul>
-            </nav>
-        </div>
-    </div>
-</div>
-
               
                 
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <section class="tex2jax_ignore mathjax_ignore" id="team">
-<span id="pages-team"></span><h1>Team<a class="headerlink" href="#team" title="Link to this heading">#</a></h1>
+<section id="team">
+<span id="pages-team"></span><h1>Team</h1>
 <div class="sd-container-fluid sd-sphinx-override sd-mb-4 sd-p-1 full-width docutils">
 <div class="sd-row sd-row-cols-1 sd-row-cols-xs-1 sd-row-cols-sm-1 sd-row-cols-md-1 sd-row-cols-lg-1 sd-g-3 sd-g-xs-3 sd-g-sm-3 sd-g-md-3 sd-g-lg-3 docutils">
 <div class="sd-col sd-d-flex-row docutils">
 <div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm sd-text-left docutils">
 <div class="sd-card-body docutils">
-<img alt="https://media.licdn.com/dms/image/C4D03AQFr7f6JrcJ7Ow/profile-displayphoto-shrink_800_800/0/1631503508344?e=1727308800&amp;v=beta&amp;t=R8Zq5u2LEHWeBOZFvVD9HfgwOEYWB69CDZyIofpSOwA" class="no-scaled-link align-right" src="https://media.licdn.com/dms/image/C4D03AQFr7f6JrcJ7Ow/profile-displayphoto-shrink_800_800/0/1631503508344?e=1727308800&amp;v=beta&amp;t=R8Zq5u2LEHWeBOZFvVD9HfgwOEYWB69CDZyIofpSOwA" style="width: 150px;" />
-<p class="sd-card-text"><strong>Leïla Morzelle</strong> <a class="reference external" href="https://www.linkedin.com/in/le%C3%AFla-morzelle-276217220/"><i class="fa-brands fa-linkedin fa-lg"></i></a>   <br>PhD Candidate, University of Cergy-Pontoise</p>
-<p class="sd-card-text">Leïla Morzelle has been a natural sciences teacher in France since 2018. After teaching in high school and at university, she obtained a prize for mediation and dissemination of scientific culture for her investment in the U-maker project about geology of Vexin. In 2024, she began a PhD in geosciences at CY Cergy Paris University and is interested in 3D geometry and the deformation of low-angle normal faults. She has a Drone Pilot Certificate which she intends to use in a new way of doing geological field work.</p>
+<img alt="https://media.licdn.com/dms/image/C4E03AQFhyY2nG58znw/profile-displayphoto-shrink_800_800/0/1515955850706?e=1727308800&amp;v=beta&amp;t=kd0tWHvm0DiRtOVcXBF3JZCuRkDSEL7fhDYzNo8Tl1k" class="no-scaled-link align-right" src="https://media.licdn.com/dms/image/C4E03AQFhyY2nG58znw/profile-displayphoto-shrink_800_800/0/1515955850706?e=1727308800&amp;v=beta&amp;t=kd0tWHvm0DiRtOVcXBF3JZCuRkDSEL7fhDYzNo8Tl1k" style="width: 150px;" />
+<p class="sd-card-text"><strong>Geoffroy Mohn</strong>, PhD - <em>Principal Investigator</em> <a class="reference external" href="https://www.linkedin.com/in/geoffroy-mohn-91410224/"><i class="fa-brands fa-linkedin fa-lg"></i></a>   <br>Assistant professor, University of Cergy-Pontoise</p>
+<p class="sd-card-text">Dr. Geoffroy Mohn is associate professor in Tectonics at CY Cergy-Paris University (France). He graduated from the University of Strasbourg, with a PhD in Geology in 2010, conducted under the supervision of Prof. Gianreto Manatschal. His dissertation focussed on the tectonic and sedimentary evolution of the remnants of the fossil Alpine Tethys margin preserved in the European Alps. After his PhD, he obtained a postdoctoral scholarship between the University of Strasbourg (France), University of Lausanne (Switzerland) and EXXONMOBIL-Upstream Research Company-Houston to study the structural, rheological and temporal evolution of hyper-extended deep-water rifted margins. His research focusses on the mechanisms of continental lithospheric thinning and breakup and the associated sedimentary record using offshore and onshore case studies. He also investigates the interaction between hyperextension and evaporite/salt deposition and the effect of mobile salt on the stratigraphic architecture of rift basins.</p>
+<p class="sd-card-text">Since his recruitment in 2012 at CY Cergy-Paris University, he supervised five PhDs students, led and managed four post-doc projects funded by industry partners and was involved in two petroleum consortiums (MM4, M5). He recently led a project on the evolution of the remnants of the North African Mesozoic rifted margin exposed in the Rif belt (onshore Morocco).</p>
+<p class="sd-card-text">Dr Geoffroy Mohn is currently actively involved in IODP, being the referent for his laboratory. He participated and sailed on the IODP expeditions 368, which occurred in spring 2017 entitled <em>Testing hypotheses for lithosphere thinning during continental breakup: drilling at the South China Sea rifted margin</em>, subsequently to which he obtained several post-cruise IODP projects.</p>
 </div>
 </div>
 </div>
@@ -382,27 +417,25 @@ and included field excursions and seismic interpretation workshops.</p>
 <div class="sd-col sd-d-flex-row docutils">
 <div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm sd-text-left docutils">
 <div class="sd-card-body docutils">
-<img alt="https://media.licdn.com/dms/image/C4E03AQFhyY2nG58znw/profile-displayphoto-shrink_800_800/0/1515955850706?e=1727308800&amp;v=beta&amp;t=kd0tWHvm0DiRtOVcXBF3JZCuRkDSEL7fhDYzNo8Tl1k" class="no-scaled-link align-right" src="https://media.licdn.com/dms/image/C4E03AQFhyY2nG58znw/profile-displayphoto-shrink_800_800/0/1515955850706?e=1727308800&amp;v=beta&amp;t=kd0tWHvm0DiRtOVcXBF3JZCuRkDSEL7fhDYzNo8Tl1k" style="width: 150px;" />
-<p class="sd-card-text"><strong>Geoffroy Mohn</strong>, PhD - <em>Principal Investigator</em> <a class="reference external" href="https://www.linkedin.com/in/geoffroy-mohn-91410224/"><i class="fa-brands fa-linkedin fa-lg"></i></a>   <br>Assistant professor, University of Cergy-Pontoise</p>
-<p class="sd-card-text">Dr. Geoffroy Mohn is associate professor in Tectonics at CY Cergy-Paris University (France). He graduated from the University of Strasbourg, with a PhD in Geology in 2010, conducted under the supervision of Prof. Gianreto Manatschal. His dissertation focussed on the tectonic and sedimentary evolution of the remnants of the fossil Alpine Tethys margin preserved in the European Alps. After his PhD, he obtained a postdoctoral scholarship between the University of Strasbourg (France), University of Lausanne (Switzerland) and EXXONMOBIL-Upstream Research Company-Houston to study the structural, rheological and temporal evolution of hyper-extended deep-water rifted margins. His research focusses on the mechanisms of continental lithospheric thinning and breakup and the associated sedimentary record using offshore and onshore case studies. He also investigates the interaction between hyperextension and evaporite/salt deposition and the effect of mobile salt on the stratigraphic architecture of rift basins.</p>
-<p class="sd-card-text">Since his recruitment in 2012 at CY Cergy-Paris University, he supervised five PhDs students, led and managed four post-doc projects funded by industry partners and was involved in two petroleum consortiums (MM4, M5). He recently led a project on the evolution of the remnants of the North African Mesozoic rifted margin exposed in the Rif belt (onshore Morocco).</p>
-<p class="sd-card-text">Dr Geoffroy Mohn is currently actively involved in IODP, being the referent for his laboratory. He participated and sailed on the IODP expeditions 368, which occurred in spring 2017 entitled <em>Testing hypotheses for lithosphere thinning during continental breakup: drilling at the South China Sea rifted margin</em>, subsequently to which he obtained several post-cruise IODP projects.</p>
-</div>
-</div>
-</div>
-<div class="sd-col sd-d-flex-row docutils">
-<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm sd-text-left docutils">
-<div class="sd-card-body docutils">
 <img alt="https://media.licdn.com/dms/image/C4D03AQFcirvtqh0tkA/profile-displayphoto-shrink_800_800/0/1518888592866?e=2147483647&amp;v=beta&amp;t=6LiG6e0axA1RzMalJcw5EM_6yYrceHstgcOS3GhPvcM" class="no-scaled-link align-right" src="https://media.licdn.com/dms/image/C4D03AQFcirvtqh0tkA/profile-displayphoto-shrink_800_800/0/1518888592866?e=2147483647&amp;v=beta&amp;t=6LiG6e0axA1RzMalJcw5EM_6yYrceHstgcOS3GhPvcM" style="width: 150px;" />
 <p class="sd-card-text"><strong>Peter Betlem</strong>, PhD <a class="reference external" href="https://www.linkedin.com/in/peterbetlem"><i class="fa-brands fa-linkedin fa-lg"></i></a> <a class="reference external" href="https://github.com/peterbetlem"><i class="fa-brands fa-github fa-lg"></i></a> <a class="reference external" href="https://scholar.google.com/citations?user=vdV4YxIAAAAJ&amp;amp;hl"><i class="fa-brands fa-google-scholar fa-lg"></i></a> <a class="reference external" href="https://www.researchgate.net/profile/Peter-Betlem"><i class="fa-brands fa-researchgate fa-lg"></i></a><br>Geoscientist, Norges Geotekniske Institutt</p>
 <p class="sd-card-text">None</p>
 </div>
 </div>
 </div>
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm sd-text-left docutils">
+<div class="sd-card-body docutils">
+<img alt="https://media.licdn.com/dms/image/C4D03AQFr7f6JrcJ7Ow/profile-displayphoto-shrink_800_800/0/1631503508344?e=1727308800&amp;v=beta&amp;t=R8Zq5u2LEHWeBOZFvVD9HfgwOEYWB69CDZyIofpSOwA" class="no-scaled-link align-right" src="https://media.licdn.com/dms/image/C4D03AQFr7f6JrcJ7Ow/profile-displayphoto-shrink_800_800/0/1631503508344?e=1727308800&amp;v=beta&amp;t=R8Zq5u2LEHWeBOZFvVD9HfgwOEYWB69CDZyIofpSOwA" style="width: 150px;" />
+<p class="sd-card-text"><strong>Leïla Morzelle</strong> <a class="reference external" href="https://www.linkedin.com/in/le%C3%AFla-morzelle-276217220/"><i class="fa-brands fa-linkedin fa-lg"></i></a>   <br>PhD Candidate, University of Cergy-Pontoise</p>
+<p class="sd-card-text">Leïla Morzelle has been a natural sciences teacher in France since 2018. After teaching in high school and at university, she obtained a prize for mediation and dissemination of scientific culture for her investment in the U-maker project about geology of Vexin. In 2024, she began a PhD in geosciences at CY Cergy Paris University and is interested in 3D geometry and the deformation of low-angle normal faults. She has a Drone Pilot Certificate which she intends to use in a new way of doing geological field work.</p>
+</div>
+</div>
+</div>
 </div>
 </div>
 <section id="references">
-<h2>References<a class="headerlink" href="#references" title="Link to this heading">#</a></h2>
+<h2>References</h2>
 <div class="docutils container" id="id3">
 <div role="list" class="citation-list">
 <div class="citation" id="id6" role="doc-biblioentry">
@@ -418,56 +451,16 @@ and included field excursions and seismic interpretation workshops.</p>
 </section>
 </section>
 
-    <script type="text/x-thebe-config">
-    {
-        requestKernel: true,
-        binderOptions: {
-            repo: "binder-examples/jupyter-stacks-datascience",
-            ref: "master",
-        },
-        codeMirrorConfig: {
-            theme: "abcdef",
-            mode: "python"
-        },
-        kernelOptions: {
-            name: "python3",
-            path: "./pages"
-        },
-        predefinedOutput: true
-    }
-    </script>
-    <script>kernelName = 'python3'</script>
+<div class="section ablog__blog_comments">
+  
+  
+</div>
 
                 </article>
               
-
               
               
               
-              
-                <footer class="prev-next-footer d-print-none">
-                  
-<div class="prev-next-area">
-    <a class="left-prev"
-       href="about.html"
-       title="previous page">
-      <i class="fa-solid fa-angle-left"></i>
-      <div class="prev-next-info">
-        <p class="prev-next-subtitle">previous</p>
-        <p class="prev-next-title">About</p>
-      </div>
-    </a>
-    <a class="right-next"
-       href="sponsors.html"
-       title="next page">
-      <div class="prev-next-info">
-        <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Sponsors</p>
-      </div>
-      <i class="fa-solid fa-angle-right"></i>
-    </a>
-</div>
-                </footer>
               
             </div>
             
@@ -477,40 +470,8 @@ and included field excursions and seismic interpretation workshops.</p>
           </div>
           <footer class="bd-footer-content">
             
-<div class="bd-footer-content__inner container">
-  
-  <div class="footer-item">
-    
-<p class="component-author">
-By Betlem, Mohn, Tugend (2023)
-</p>
-
-  </div>
-  
-  <div class="footer-item">
-    
-
-  <p class="copyright">
-    
-      © Copyright 2023.
-      <br/>
-    
-  </p>
-
-  </div>
-  
-  <div class="footer-item">
-    
-  </div>
-  
-  <div class="footer-item">
-    
-  </div>
-  
-</div>
           </footer>
         
-
       </main>
     </div>
   </div>
@@ -520,6 +481,26 @@ By Betlem, Mohn, Tugend (2023)
 <script src="../_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b"></script>
 
   <footer class="bd-footer">
+<div class="bd-footer__inner bd-page-width">
+  
+    <div class="footer-items__start">
+      
+        <div class="footer-item">
+
+  <p class="copyright">
+    
+      © Copyright Betlem, Mohn, Tugend, Morzelle 2023-2024.
+      <br/>
+    
+  </p>
+</div>
+      
+    </div>
+  
+  
+  
+</div>
+
   </footer>
   </body>
 </html>
